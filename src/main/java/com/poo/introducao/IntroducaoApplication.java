@@ -14,9 +14,9 @@ public class IntroducaoApplication {
 		SpringApplication.run(IntroducaoApplication.class, args);
 		Scanner scanner = new Scanner(System.in);
 	//  lista lista = new lista();
-	//  lista.ex08();
+	//  lista.ex03();
 	 lista02 segundaLista = new lista02();
-	 segundaLista.exercicio02();
+	 segundaLista.exercicio08();
 	}
 		 
 	
