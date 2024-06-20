@@ -15,8 +15,10 @@ public class IntroducaoApplication {
 		Scanner scanner = new Scanner(System.in);
 	//  lista lista = new lista();
 	//  lista.ex03();
-	 lista02 segundaLista = new lista02();
-	 segundaLista.exercicio08();
+	//  lista02 segundaLista = new lista02();
+	//  segundaLista.exercicio08();
+	Lista03 terLista = new Lista03();
+	terLista.lista03ex2();
 	}
 		 
 	
