@@ -18,7 +18,7 @@ public class IntroducaoApplication {
 	//  lista02 segundaLista = new lista02();
 	//  segundaLista.exercicio08();
 	Lista03 terLista = new Lista03();
-	terLista.lista03ex2();
+	terLista.lista03ex3();
 	}
 		 
 	
