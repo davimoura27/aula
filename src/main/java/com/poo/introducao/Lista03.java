@@ -101,4 +101,64 @@ public class Lista03 {
 
     }
 
+    void lista03ex5() {
+        Scanner leia = new Scanner(System.in);
+        String login = "davi";
+        String senha = "123";
+        String loginDigitado;
+        String senhaDigitada;
+        int chance = 3;
+        System.out.println("---- Cadastro digital ----");
+
+        do {
+            System.out.print("login:");
+            loginDigitado = leia.nextLine();
+            System.out.print("senha:");
+            senhaDigitada = leia.nextLine();
+
+            if ((loginDigitado.equals(login)) && (senhaDigitada.equals(senha))) {
+                System.out.println("Bem vindo!");
+            } else {
+                if (chance < 1) {
+                    System.out.println("login bloqueado");
+                    break;
+
+                }
+                if (!(loginDigitado.equals(login)) && !(senhaDigitada.equals(senha))) {
+                    System.out.println("login e senha incorretos! tente novamente!");
+                    chance--;
+                    System.out.println("restam" + " " + chance + " " + "chance");
+                } else if (!(loginDigitado.equals(login))) {
+                    System.out.println("login incorreto! tente novamente!");
+                    chance--;
+                    System.out.println("restam" + " " + chance + " " + "chance");
+                } else if (!(senhaDigitada.equals(senha))) {
+                    System.out.println("senha incorreta! tente novamente!");
+                    chance--;
+                    System.out.println("restam" + " " + chance + " " + "chance");
+                }
+
+            }
+
+        } while (!(loginDigitado.equals(login)) || !(senhaDigitada.equals(senha)));
+
+    }
+
+    void lista03ex6() {
+
+    Scanner leia = new Scanner(System.in);
+    int andar;
+
+    System.out.println("*** bem vindo ***");
+    System.out.print(" Digite quantos andares deseja ter sua piramide:");
+    andar = leia.nextInt();
+
+    for(int linha = 0 ; linha <= andar; linha++){
+       
+    }
+
+
+
+}
+
 }
