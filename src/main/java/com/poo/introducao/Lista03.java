@@ -154,10 +154,32 @@ public class Lista03 {
     andar = leia.nextInt();
 
     for(int linha = 0 ; linha <= andar; linha++){
-       
+    
+      System.out.println("*");
+     
     }
 
 
+
+}
+void lista03ex7(){
+
+  int largura;
+  int altura;
+  Scanner leia = new Scanner(System.in);
+
+  System.out.print("digite a largura:");
+  largura = leia.nextInt();
+  System.out.print("digite a altura:");
+  altura = leia.nextInt();
+
+  for(int i = 1; i <=altura; i++){
+   for(int k = 1; k <= largura; k++ ){
+    System.out.print("*");
+   }
+   
+    System.out.println();
+  }
 
 }
 
