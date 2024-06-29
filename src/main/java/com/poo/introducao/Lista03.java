@@ -146,41 +146,50 @@ public class Lista03 {
 
     void lista03ex6() {
 
-    Scanner leia = new Scanner(System.in);
-    int andar;
+        Scanner leia = new Scanner(System.in);
+        int andar;
 
-    System.out.println("*** bem vindo ***");
-    System.out.print(" Digite quantos andares deseja ter sua piramide:");
-    andar = leia.nextInt();
+        System.out.println("*** bem vindo ***");
+        System.out.print(" Digite quantos andares deseja ter sua piramide:");
+        andar = leia.nextInt();
 
-    for(int linha = 0 ; linha <= andar; linha++){
-    
-      System.out.println("*");
-     
+        for (int linha = 1; linha <= andar; linha++) {
+
+            for (int espaco = 1; espaco <= (andar - linha); espaco++) {
+                System.out.print(" ");
+            }
+            for (int j = 1; j <= (linha * 2-1); j++) {
+                System.out.print("*");
+
+            }
+
+            System.out.println();
+
+        }
+
     }
 
+         
 
+    void lista03ex7() {
 
-}
-void lista03ex7(){
+        int largura;
+        int altura;
+        Scanner leia = new Scanner(System.in);
 
-  int largura;
-  int altura;
-  Scanner leia = new Scanner(System.in);
+        System.out.print("digite a largura:");
+        largura = leia.nextInt();
+        System.out.print("digite a altura:");
+        altura = leia.nextInt();
 
-  System.out.print("digite a largura:");
-  largura = leia.nextInt();
-  System.out.print("digite a altura:");
-  altura = leia.nextInt();
+        for (int i = 1; i <= altura; i++) {
+            for (int k = 1; k <= largura; k++) {
+                System.out.print("*");
+            }
 
-  for(int i = 1; i <=altura; i++){
-   for(int k = 1; k <= largura; k++ ){
-    System.out.print("*");
-   }
-   
-    System.out.println();
-  }
+            System.out.println();
+        }
 
-}
+    }
 
 }
