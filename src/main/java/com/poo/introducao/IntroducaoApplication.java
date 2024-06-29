@@ -19,10 +19,10 @@ public class IntroducaoApplication {
 		// lista.ex03();
 		// lista02 segundaLista = new lista02();
 		// segundaLista.exercicio08();
-		// Lista03 terLista = new Lista03();
-		// terLista.lista03ex7();
-		Lista04 quarLista = new Lista04();
-		quarLista.lista04ex5();
+		Lista03 terLista = new Lista03();
+		terLista.lista03ex7();
+		// Lista04 quarLista = new Lista04();
+		// quarLista.lista04ex5();
 		// Contacorrente contadoyuri = new Contacorrente();
 		// contadoyuri.depositar(1000);
 		// contadoyuri.sacar(1200);
